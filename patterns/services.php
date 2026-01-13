@@ -34,8 +34,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"64px","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"100%"}} -->
-<div class="wp-block-group" style="margin-top:64px;margin-bottom:0"><!-- wp:columns {"verticalAlignment":"center","className":"relyo-hover-primary","style":{"spacing":{"blockGap":{"top":"34px","left":"24px"},"margin":{"top":"24px"},"padding":{"top":"34px","bottom":"34px","left":"48px","right":"48px"}}},"backgroundColor":"white-color"} -->
-<div class="wp-block-columns are-vertically-aligned-center relyo-hover-primary has-white-color-background-color has-background" style="margin-top:24px;padding-top:34px;padding-right:48px;padding-bottom:34px;padding-left:48px"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
+<div class="wp-block-group" style="margin-top:64px;margin-bottom:0"><!-- wp:columns {"verticalAlignment":"center","className":"is-style-relyo-hover-primary","style":{"spacing":{"blockGap":{"top":"34px","left":"24px"},"margin":{"top":"24px"},"padding":{"top":"34px","bottom":"34px","left":"48px","right":"48px"}}},"backgroundColor":"white-color"} -->
+<div class="wp-block-columns are-vertically-aligned-center is-style-relyo-hover-primary has-white-color-background-color has-background" style="margin-top:24px;padding-top:34px;padding-right:48px;padding-bottom:34px;padding-left:48px"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:20%"><!-- wp:image {"id":137,"width":"65px","height":"65px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="
 <?php
@@ -46,24 +46,24 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":"relyo-text-light-color"} -->
-<h3 class="wp-block-heading relyo-text-light-color">
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":""} -->
+<h3 class="wp-block-heading ">
 <?php
 	esc_html_e( 'Property Valuation / Pricing Analysis', 'relyo' );
 ?>
 </h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"24px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:24px">
+<!-- wp:paragraph {"className":"","style":{"spacing":{"margin":{"top":"24px"}}}} -->
+<p class="" style="margin-top:24px">
 	<?php esc_html_e( 'Lorem ipsum dolor sit amet consectetur. Dignissim pretium blandit nunc elit enim. Diam quis amet vitae urna eu quis lacus. Pretium ut accumsan elementum.', 'relyo' ); ?>
 </p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%"><!-- wp:paragraph {"className":"relyo-text-light-color","style":{"typography":{"fontSize":"18px","textDecoration":"underline","fontStyle":"normal","fontWeight":"500"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} -->
-<p class="relyo-text-light-color" style="font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="#">
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%"><!-- wp:paragraph {"className":"","style":{"typography":{"fontSize":"18px","textDecoration":"underline","fontStyle":"normal","fontWeight":"500"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} -->
+<p class="" style="font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="#">
 <?php
 	esc_html_e( 'Read More', 'relyo' );
 ?>
@@ -72,8 +72,8 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":"center","className":"relyo-hover-primary","style":{"spacing":{"blockGap":{"top":"34px","left":"24px"},"margin":{"top":"24px"},"padding":{"top":"34px","bottom":"34px","left":"48px","right":"48px"}}},"backgroundColor":"white-color"} -->
-<div class="wp-block-columns are-vertically-aligned-center relyo-hover-primary has-white-color-background-color has-background" style="margin-top:24px;padding-top:34px;padding-right:48px;padding-bottom:34px;padding-left:48px"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
+<!-- wp:columns {"verticalAlignment":"center","className":"is-style-relyo-hover-primary","style":{"spacing":{"blockGap":{"top":"34px","left":"24px"},"margin":{"top":"24px"},"padding":{"top":"34px","bottom":"34px","left":"48px","right":"48px"}}},"backgroundColor":"white-color"} -->
+<div class="wp-block-columns are-vertically-aligned-center is-style-relyo-hover-primary has-white-color-background-color has-background" style="margin-top:24px;padding-top:34px;padding-right:48px;padding-bottom:34px;padding-left:48px"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:20%"><!-- wp:image {"id":137,"width":"65px","height":"65px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="
 <?php
@@ -84,22 +84,22 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":"relyo-text-light-color"} -->
-<h3 class="wp-block-heading relyo-text-light-color">
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":""} -->
+<h3 class="wp-block-heading ">
 <?php
 	esc_html_e( 'Transaction Management', 'relyo' );
 ?>
 </h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"24px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:24px"><?php esc_html_e( 'Lorem ipsum dolor sit amet consectetur. Dignissim pretium blandit nunc elit enim. Diam quis amet vitae urna eu quis lacus. Pretium ut accumsan elementum.', 'relyo' ); ?></p>
+<!-- wp:paragraph {"className":"","style":{"spacing":{"margin":{"top":"24px"}}}} -->
+<p class="" style="margin-top:24px"><?php esc_html_e( 'Lorem ipsum dolor sit amet consectetur. Dignissim pretium blandit nunc elit enim. Diam quis amet vitae urna eu quis lacus. Pretium ut accumsan elementum.', 'relyo' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%"><!-- wp:paragraph {"className":"relyo-text-light-color","style":{"typography":{"fontSize":"18px","textDecoration":"underline","fontStyle":"normal","fontWeight":"500"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} -->
-<p class="relyo-text-light-color" style="font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="#">
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%"><!-- wp:paragraph {"className":"","style":{"typography":{"fontSize":"18px","textDecoration":"underline","fontStyle":"normal","fontWeight":"500"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} -->
+<p class="" style="font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="#">
 <?php
 	esc_html_e( 'Read More', 'relyo' );
 ?>
@@ -108,8 +108,8 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":"center","className":"relyo-hover-primary","style":{"spacing":{"blockGap":{"top":"34px","left":"24px"},"margin":{"top":"24px"},"padding":{"top":"34px","bottom":"34px","left":"48px","right":"48px"}}},"backgroundColor":"white-color"} -->
-<div class="wp-block-columns are-vertically-aligned-center relyo-hover-primary has-white-color-background-color has-background" style="margin-top:24px;padding-top:34px;padding-right:48px;padding-bottom:34px;padding-left:48px"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
+<!-- wp:columns {"verticalAlignment":"center","className":"is-style-relyo-hover-primary","style":{"spacing":{"blockGap":{"top":"34px","left":"24px"},"margin":{"top":"24px"},"padding":{"top":"34px","bottom":"34px","left":"48px","right":"48px"}}},"backgroundColor":"white-color"} -->
+<div class="wp-block-columns are-vertically-aligned-center is-style-relyo-hover-primary has-white-color-background-color has-background" style="margin-top:24px;padding-top:34px;padding-right:48px;padding-bottom:34px;padding-left:48px"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:20%"><!-- wp:image {"id":137,"width":"65px","height":"65px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="
 <?php
@@ -120,22 +120,22 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":"relyo-text-light-color"} -->
-<h3 class="wp-block-heading relyo-text-light-color">
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":""} -->
+<h3 class="wp-block-heading ">
 <?php
 	esc_html_e( 'Marketing Promotion', 'relyo' );
 ?>
 </h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"24px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:24px"><?php esc_html_e( 'Lorem ipsum dolor sit amet consectetur. Dignissim pretium blandit nunc elit enim. Diam quis amet vitae urna eu quis lacus. Pretium ut accumsan elementum.', 'relyo' ); ?></p>
+<!-- wp:paragraph {"className":"","style":{"spacing":{"margin":{"top":"24px"}}}} -->
+<p class="" style="margin-top:24px"><?php esc_html_e( 'Lorem ipsum dolor sit amet consectetur. Dignissim pretium blandit nunc elit enim. Diam quis amet vitae urna eu quis lacus. Pretium ut accumsan elementum.', 'relyo' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%"><!-- wp:paragraph {"className":"relyo-text-light-color","style":{"typography":{"fontSize":"18px","textDecoration":"underline","fontStyle":"normal","fontWeight":"500"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} -->
-<p class="relyo-text-light-color" style="font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="#">
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%"><!-- wp:paragraph {"className":"","style":{"typography":{"fontSize":"18px","textDecoration":"underline","fontStyle":"normal","fontWeight":"500"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} -->
+<p class="" style="font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="#">
 <?php
 	esc_html_e( 'Read More', 'relyo' );
 ?>
@@ -144,8 +144,8 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":"center","className":"relyo-hover-primary","style":{"spacing":{"blockGap":{"top":"34px","left":"24px"},"margin":{"top":"24px"},"padding":{"top":"34px","bottom":"34px","left":"48px","right":"48px"}}},"backgroundColor":"white-color"} -->
-<div class="wp-block-columns are-vertically-aligned-center relyo-hover-primary has-white-color-background-color has-background" style="margin-top:24px;padding-top:34px;padding-right:48px;padding-bottom:34px;padding-left:48px"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
+<!-- wp:columns {"verticalAlignment":"center","className":"is-style-relyo-hover-primary","style":{"spacing":{"blockGap":{"top":"34px","left":"24px"},"margin":{"top":"24px"},"padding":{"top":"34px","bottom":"34px","left":"48px","right":"48px"}}},"backgroundColor":"white-color"} -->
+<div class="wp-block-columns are-vertically-aligned-center is-style-relyo-hover-primary has-white-color-background-color has-background" style="margin-top:24px;padding-top:34px;padding-right:48px;padding-bottom:34px;padding-left:48px"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:20%"><!-- wp:image {"id":137,"width":"65px","height":"65px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="
 <?php
@@ -156,28 +156,28 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":"relyo-text-light-color"} -->
-<h3 class="wp-block-heading relyo-text-light-color">
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":""} -->
+<h3 class="wp-block-heading ">
 <?php
 	esc_html_e( 'Property Valuation', 'relyo' );
 ?>
 </h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"24px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:24px"><?php esc_html_e( 'Lorem ipsum dolor sit amet consectetur. Dignissim pretium blandit nunc elit enim. Diam quis amet vitae urna eu quis lacus. Pretium ut accumsan elementum.', 'relyo' ); ?></p>
+<!-- wp:paragraph {"className":"","style":{"spacing":{"margin":{"top":"24px"}}}} -->
+<p class="" style="margin-top:24px"><?php esc_html_e( 'Lorem ipsum dolor sit amet consectetur. Dignissim pretium blandit nunc elit enim. Diam quis amet vitae urna eu quis lacus. Pretium ut accumsan elementum.', 'relyo' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%"><!-- wp:paragraph {"className":"relyo-text-light-color","style":{"typography":{"fontSize":"18px","textDecoration":"underline","fontStyle":"normal","fontWeight":"500"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} -->
-<p class="relyo-text-light-color" style="font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="#">Read More</a></p>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%"><!-- wp:paragraph {"className":"","style":{"typography":{"fontSize":"18px","textDecoration":"underline","fontStyle":"normal","fontWeight":"500"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} -->
+<p class="" style="font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="#">Read More</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":"center","className":"relyo-hover-primary","style":{"spacing":{"blockGap":{"top":"34px","left":"24px"},"margin":{"top":"24px"},"padding":{"top":"34px","bottom":"34px","left":"48px","right":"48px"}}},"backgroundColor":"white-color"} -->
-<div class="wp-block-columns are-vertically-aligned-center relyo-hover-primary has-white-color-background-color has-background" style="margin-top:24px;padding-top:34px;padding-right:48px;padding-bottom:34px;padding-left:48px"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
+<!-- wp:columns {"verticalAlignment":"center","className":"is-style-relyo-hover-primary","style":{"spacing":{"blockGap":{"top":"34px","left":"24px"},"margin":{"top":"24px"},"padding":{"top":"34px","bottom":"34px","left":"48px","right":"48px"}}},"backgroundColor":"white-color"} -->
+<div class="wp-block-columns are-vertically-aligned-center is-style-relyo-hover-primary has-white-color-background-color has-background" style="margin-top:24px;padding-top:34px;padding-right:48px;padding-bottom:34px;padding-left:48px"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:20%"><!-- wp:image {"id":137,"width":"65px","height":"65px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="
 <?php
@@ -188,22 +188,22 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":"relyo-text-light-color"} -->
-<h3 class="wp-block-heading relyo-text-light-color">
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":""} -->
+<h3 class="wp-block-heading ">
 <?php
 	esc_html_e( 'Home Search & Buyer Representation', 'relyo' );
 ?>
 </h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"24px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:24px"><?php esc_html_e( 'Lorem ipsum dolor sit amet consectetur. Dignissim pretium blandit nunc elit enim. Diam quis amet vitae urna eu quis lacus. Pretium ut accumsan elementum.', 'relyo' ); ?></p>
+<!-- wp:paragraph {"className":"","style":{"spacing":{"margin":{"top":"24px"}}}} -->
+<p class="" style="margin-top:24px"><?php esc_html_e( 'Lorem ipsum dolor sit amet consectetur. Dignissim pretium blandit nunc elit enim. Diam quis amet vitae urna eu quis lacus. Pretium ut accumsan elementum.', 'relyo' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%"><!-- wp:paragraph {"className":"relyo-text-light-color","style":{"typography":{"fontSize":"18px","textDecoration":"underline","fontStyle":"normal","fontWeight":"500"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} -->
-<p class="relyo-text-light-color" style="font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="#">
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%"><!-- wp:paragraph {"className":"","style":{"typography":{"fontSize":"18px","textDecoration":"underline","fontStyle":"normal","fontWeight":"500"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} -->
+<p class="" style="font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="#">
 <?php
 	esc_html_e( 'Read More', 'relyo' );
 ?>

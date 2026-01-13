@@ -110,6 +110,20 @@ if ( function_exists( 'register_block_style' ) ) {
 			)
 		);
 		register_block_style(
+			'core/group',
+			array(
+				'name'  => 'relyo-hover-primary',
+				'label' => __( 'Hover: Primary', 'relyo' ),
+			)
+		);
+		register_block_style(
+			'core/group',
+			array(
+				'name'  => 'relyo-hover-secondary',
+				'label' => __( 'Hover: Secondary', 'relyo' ),
+			)
+		);
+		register_block_style(
 			'core/column',
 			array(
 				'name'  => 'relyo-boxshadow',
@@ -121,6 +135,20 @@ if ( function_exists( 'register_block_style' ) ) {
 			array(
 				'name'  => 'relyo-boxshadow-hover',
 				'label' => __( 'Hover: Box Shadow', 'relyo' ),
+			)
+		);
+		register_block_style(
+			'core/column',
+			array(
+				'name'  => 'relyo-hover-primary',
+				'label' => __( 'Hover: Primary', 'relyo' ),
+			)
+		);
+		register_block_style(
+			'core/column',
+			array(
+				'name'  => 'relyo-hover-secondary',
+				'label' => __( 'Hover: Secondary', 'relyo' ),
 			)
 		);
 		register_block_style(
@@ -142,6 +170,20 @@ if ( function_exists( 'register_block_style' ) ) {
 			array(
 				'name'  => 'relyo-overflow-hidden',
 				'label' => __( 'Overflow: Hidden', 'relyo' ),
+			)
+		);
+		register_block_style(
+			'core/columns',
+			array(
+				'name'  => 'relyo-hover-primary',
+				'label' => __( 'Hover: Primary', 'relyo' ),
+			)
+		);
+		register_block_style(
+			'core/columns',
+			array(
+				'name'  => 'relyo-hover-secondary',
+				'label' => __( 'Hover: Secondary', 'relyo' ),
 			)
 		);
 		register_block_style(

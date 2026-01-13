@@ -34,8 +34,8 @@
 <!-- /wp:group -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"65px"},"blockGap":{"top":"24px","left":"20px"}}}} -->
-<div class="wp-block-columns" style="margin-top:65px"><!-- wp:column {"className":"relyo-hover-primary","style":{"spacing":{"padding":{"top":"34px","bottom":"34px","left":"24px","right":"24px"}}},"backgroundColor":"white-color","layout":{"type":"constrained","contentSize":"245px"}} -->
-<div class="wp-block-column relyo-hover-primary has-white-color-background-color has-background" style="padding-top:34px;padding-right:24px;padding-bottom:34px;padding-left:24px"><!-- wp:image {"id":137,"scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
+<div class="wp-block-columns" style="margin-top:65px"><!-- wp:column {"className":"is-style-relyo-hover-primary","style":{"spacing":{"padding":{"top":"34px","bottom":"34px","left":"24px","right":"24px"}}},"backgroundColor":"white-color","layout":{"type":"constrained","contentSize":"245px"}} -->
+<div class="wp-block-column is-style-relyo-hover-primary has-white-color-background-color has-background" style="padding-top:34px;padding-right:24px;padding-bottom:34px;padding-left:24px"><!-- wp:image {"id":137,"scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="
 <?php
 	echo esc_url( $relyo_img[0] );
@@ -43,24 +43,24 @@
 " alt="" class="wp-image-137" style="object-fit:contain"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"60px"}}},"fontSize":"medium"} -->
-<h3 class="wp-block-heading relyo-text-light-color has-medium-font-size" style="margin-top:60px">
+<!-- wp:heading {"level":3,"className":"","style":{"spacing":{"margin":{"top":"60px"}}},"fontSize":"medium"} -->
+<h3 class="wp-block-heading  has-medium-font-size" style="margin-top:60px">
 <?php
 	esc_html_e( 'Trusted Expertise', 'relyo' );
 ?>
 </h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"16px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:16px">
+<!-- wp:paragraph {"className":"","style":{"spacing":{"margin":{"top":"16px"}}}} -->
+<p class="" style="margin-top:16px">
 <?php
 	esc_html_e( 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore.', 'relyo' );
 ?>
 </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}},"spacing":{"margin":{"top":"24px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:24px"><a href="#">
+<!-- wp:paragraph {"className":"","style":{"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}},"spacing":{"margin":{"top":"24px"}}}} -->
+<p class="" style="margin-top:24px"><a href="#">
 <?php
 	esc_html_e( 'Read More', 'relyo' );
 ?>
@@ -68,8 +68,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"className":"relyo-hover-primary","style":{"spacing":{"padding":{"top":"34px","bottom":"34px","left":"24px","right":"24px"}}},"backgroundColor":"white-color","layout":{"type":"constrained","contentSize":"245px"}} -->
-<div class="wp-block-column relyo-hover-primary has-white-color-background-color has-background" style="padding-top:34px;padding-right:24px;padding-bottom:34px;padding-left:24px"><!-- wp:image {"id":152,"scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:column {"className":"is-style-relyo-hover-primary","style":{"spacing":{"padding":{"top":"34px","bottom":"34px","left":"24px","right":"24px"}}},"backgroundColor":"white-color","layout":{"type":"constrained","contentSize":"245px"}} -->
+<div class="wp-block-column is-style-relyo-hover-primary has-white-color-background-color has-background" style="padding-top:34px;padding-right:24px;padding-bottom:34px;padding-left:24px"><!-- wp:image {"id":152,"scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="
 <?php
 	echo esc_url( $relyo_img[1] );
@@ -77,24 +77,24 @@
 " alt="" class="wp-image-152" style="object-fit:contain"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"60px"}}},"fontSize":"medium"} -->
-<h3 class="wp-block-heading relyo-text-light-color has-medium-font-size" style="margin-top:60px">
+<!-- wp:heading {"level":3,"className":"","style":{"spacing":{"margin":{"top":"60px"}}},"fontSize":"medium"} -->
+<h3 class="wp-block-heading  has-medium-font-size" style="margin-top:60px">
 <?php
 	esc_html_e( 'Transparent Process', 'relyo' );
 ?>
 </h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"16px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:16px">
+<!-- wp:paragraph {"className":"","style":{"spacing":{"margin":{"top":"16px"}}}} -->
+<p class="" style="margin-top:16px">
 <?php
 	esc_html_e( 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore.', 'relyo' );
 ?>
 </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}},"spacing":{"margin":{"top":"24px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:24px"><a href="#">
+<!-- wp:paragraph {"className":"","style":{"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}},"spacing":{"margin":{"top":"24px"}}}} -->
+<p class="" style="margin-top:24px"><a href="#">
 <?php
 	esc_html_e( 'Read More', 'relyo' );
 ?>
@@ -102,8 +102,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"className":"relyo-hover-primary","style":{"spacing":{"padding":{"top":"34px","bottom":"34px","left":"24px","right":"24px"}}},"backgroundColor":"white-color","layout":{"type":"constrained","contentSize":"245px"}} -->
-<div class="wp-block-column relyo-hover-primary has-white-color-background-color has-background" style="padding-top:34px;padding-right:24px;padding-bottom:34px;padding-left:24px"><!-- wp:image {"id":157,"scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:column {"className":"is-style-relyo-hover-primary","style":{"spacing":{"padding":{"top":"34px","bottom":"34px","left":"24px","right":"24px"}}},"backgroundColor":"white-color","layout":{"type":"constrained","contentSize":"245px"}} -->
+<div class="wp-block-column is-style-relyo-hover-primary has-white-color-background-color has-background" style="padding-top:34px;padding-right:24px;padding-bottom:34px;padding-left:24px"><!-- wp:image {"id":157,"scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="
 <?php
 	echo esc_url( $relyo_img[2] );
@@ -111,24 +111,24 @@
 " alt="" class="wp-image-157" style="object-fit:contain"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"60px"}}},"fontSize":"medium"} -->
-<h3 class="wp-block-heading relyo-text-light-color has-medium-font-size" style="margin-top:60px">
+<!-- wp:heading {"level":3,"className":"","style":{"spacing":{"margin":{"top":"60px"}}},"fontSize":"medium"} -->
+<h3 class="wp-block-heading  has-medium-font-size" style="margin-top:60px">
 <?php
 	esc_html_e( 'Client-First Approach', 'relyo' );
 ?>
 </h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"16px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:16px">
+<!-- wp:paragraph {"className":"","style":{"spacing":{"margin":{"top":"16px"}}}} -->
+<p class="" style="margin-top:16px">
 <?php
 	esc_html_e( 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore.', 'relyo' );
 ?>
 </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}},"spacing":{"margin":{"top":"24px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:24px"><a href="#">
+<!-- wp:paragraph {"className":"","style":{"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}},"spacing":{"margin":{"top":"24px"}}}} -->
+<p class="" style="margin-top:24px"><a href="#">
 <?php
 	esc_html_e( 'Read More', 'relyo' );
 ?>
@@ -136,8 +136,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"className":"relyo-hover-primary","style":{"spacing":{"padding":{"top":"34px","bottom":"34px","left":"24px","right":"24px"}}},"backgroundColor":"white-color","layout":{"type":"constrained","contentSize":"245px"}} -->
-<div class="wp-block-column relyo-hover-primary has-white-color-background-color has-background" style="padding-top:34px;padding-right:24px;padding-bottom:34px;padding-left:24px"><!-- wp:image {"id":155,"scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:column {"className":"is-style-relyo-hover-primary","style":{"spacing":{"padding":{"top":"34px","bottom":"34px","left":"24px","right":"24px"}}},"backgroundColor":"white-color","layout":{"type":"constrained","contentSize":"245px"}} -->
+<div class="wp-block-column is-style-relyo-hover-primary has-white-color-background-color has-background" style="padding-top:34px;padding-right:24px;padding-bottom:34px;padding-left:24px"><!-- wp:image {"id":155,"scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="
 <?php
 	echo esc_url( $relyo_img[3] );
@@ -145,24 +145,24 @@
 " alt="" class="wp-image-155" style="object-fit:contain"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"60px"}}},"fontSize":"medium"} -->
-<h3 class="wp-block-heading relyo-text-light-color has-medium-font-size" style="margin-top:60px">
+<!-- wp:heading {"level":3,"className":"","style":{"spacing":{"margin":{"top":"60px"}}},"fontSize":"medium"} -->
+<h3 class="wp-block-heading  has-medium-font-size" style="margin-top:60px">
 <?php
 	esc_html_e( 'Wide Inventory', 'relyo' );
 ?>
 </h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"spacing":{"margin":{"top":"16px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:16px">
+<!-- wp:paragraph {"className":"","style":{"spacing":{"margin":{"top":"16px"}}}} -->
+<p class="" style="margin-top:16px">
 <?php
 	esc_html_e( 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore.', 'relyo' );
 ?>
 </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"relyo-text-light-color","style":{"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}},"spacing":{"margin":{"top":"24px"}}}} -->
-<p class="relyo-text-light-color" style="margin-top:24px"><a href="#">
+<!-- wp:paragraph {"className":"","style":{"elements":{"link":{":hover":{"color":{"text":"var:preset|color|secondary"}}}},"spacing":{"margin":{"top":"24px"}}}} -->
+<p class="" style="margin-top:24px"><a href="#">
 <?php
 	esc_html_e( 'Read More', 'relyo' );
 ?>

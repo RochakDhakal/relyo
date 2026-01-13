@@ -105,10 +105,11 @@ figure.is-style-relyo-hover-color:hover img {
   overflow: hidden;
 }
 /* HOVER */
-.relyo-hover-primary:hover {
+.is-style-relyo-hover-primary:hover {
   background-color: var(--wp--preset--color--primary) !important;
   transition: all 0.2s ease-in-out;
-  & .relyo-text-light-color {
+  & .wp-block-heading,
+  p {
     color: var(--wp--preset--color--light-color) !important;
     transition: all 0.2s ease-in-out;
     & a {
@@ -184,12 +185,11 @@ figure.is-style-relyo-hover-color:hover img {
     border-radius: 100px;
     transition: all 0.2s ease-in-out;
   }
-  & a:hover{
+  & a:hover {
     transform: translateY(-2px);
     transition: all 0.2s ease-in-out;
   }
 }
-
 
 .is-style-relyo-category-secondary {
   & a {
@@ -199,7 +199,7 @@ figure.is-style-relyo-hover-color:hover img {
     border-radius: 100px;
     transition: all 0.2s ease-in-out;
   }
-  & a:hover{
+  & a:hover {
     transform: translateY(-2px);
     transition: all 0.2s ease-in-out;
   }
