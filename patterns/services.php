@@ -159,7 +159,7 @@
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"className":"relyo-text-light-color"} -->
 <h3 class="wp-block-heading relyo-text-light-color">
 <?php
-	esc_html_e( 'Property Valuation', '' );
+	esc_html_e( 'Property Valuation', 'relyo' );
 ?>
 </h3>
 <!-- /wp:heading -->
