@@ -1,0 +1,87 @@
+/*
+Theme Name: Relyo
+Theme URI: https://cozythemes.com/relyo/
+Author: CozyThemes
+Author URI: https://cozythemes.com/
+Description: Relyo is a modern Full Site Editing (FSE) WordPress theme crafted for construction companies, contractors, builders, and engineering firms who want to present their work with strength, clarity, and professionalism. Built entirely with Gutenberg blocks, Relyo gives you complete control over layouts, templates, and global styles—without writing a single line of code. The theme features a bold yet clean, performance-focused design that highlights projects, services, expertise, and client trust while maintaining a professional construction aesthetic. With customizable patterns, responsive layouts, and seamless block-based editing, Relyo makes it easy to create impactful construction websites, company profiles, and project showcases. Fully compatible with WordPress’s latest FSE capabilities, Relyo ensures flexibility, scalability, and a future-ready foundation—perfect for construction businesses that value reliability, performance, and strong visual presentation. Discover all features and live demos at https://cozythemes.com/Relyo/
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
+Version: 1.0.0
+Requires at least: 5.9
+Tested up to: 6.8
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: relyo
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.entry-content.wp-block-post-content a,
+.wp-block-comment-content a,
+p a {
+  text-decoration: underline;
+}
+/* WooCommerce Product Archive */
+.relyo-product-image-overlay {
+  & span.wp-block-cover__background {
+    visibility: hidden;
+  }
+  & div.wp-block-cover__inner-container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.3s ease-in-out;
+  }
+}
+.relyo-product-image-overlay:hover {
+  & span.wp-block-cover__background {
+    visibility: visible;
+  }
+  & div.wp-block-cover__inner-container {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 0.3s ease-in-out;
+  }
+}
+/* ***** NEWSLETTER ***** */
+.relyo-newsletter-form {
+  margin: 0;
+  & .wpcf7-form {
+    width: 100%;
+  }
+  & p {
+    display: flex;
+    border-bottom: 1px solid var(--wp--preset--color--border-color);
+    padding-bottom: 12px;
+    & .wpcf7-form-control-wrap {
+      max-width: 100%;
+    }
+    & .wpcf7-email {
+      height: 100%;
+      width: 100%;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      color: var(--wp--preset--color--meta-color);
+    }
+    & .wpcf7-submit {
+      outline: none;
+      border: none;
+      font-size: 18px;
+      padding: 12px 15px;
+      border-radius: 100%;
+      font-weight: 600;
+      opacity: 1;
+      background-color: #f8fc26;
+      transition: all 0.2s ease-in-out;
+    }
+    & .wpcf7-submit:hover {
+      opacity: 0.8;
+      transition: all 0.2s ease-in-out;
+    }
+    & .wpcf7-spinner {
+      width: 0px;
+      margin: 0;
+      right: 0;
+    }
+  }
+}

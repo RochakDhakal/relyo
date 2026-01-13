@@ -1,0 +1,206 @@
+.wp-site-blocks > * + * {
+  margin-block-start: 0 !important;
+}
+
+/* ***** NAVIGATION ***** */
+/* Primary */
+.is-style-relyo-navigation-primary a:hover {
+  color: var(--wp--preset--color--primary) !important;
+}
+/* Secondary */
+.is-style-relyo-navigation-secondary a:hover {
+  color: var(--wp--preset--color--secondary) !important;
+}
+/* ******* BUTTON ******* */
+.is-style-relyo-button-arrow > .wp-block-button__link {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.5s;
+}
+.is-style-relyo-button-arrow .wp-block-button__link::after {
+  content: "";
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/arrow.svg);
+  mask-image: url(../images/arrow.svg);
+  mask-repeat: no-repeat;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center center;
+  opacity: 1;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.is-style-relyo-button-arrow:hover .wp-block-button__link::after {
+  transition: all 0.2s ease-in-out;
+  transform: rotate(-45deg);
+}
+/* ***** IMAGE ***** */
+figure.is-style-relyo-hover-zoom-in,
+figure.is-style-relyo-hover-zoom-out {
+  overflow: hidden;
+}
+figure.is-style-relyo-hover-zoom-in:hover img {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+figure.is-style-relyo-hover-zoom-in img {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+figure.is-style-relyo-hover-zoom-out:hover img {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+figure.is-style-relyo-hover-zoom-out img {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+figure.is-style-relyo-hover-color img {
+  filter: grayscale(100%);
+  transition: all 0.2s ease-in-out;
+}
+figure.is-style-relyo-hover-color-primary img {
+  transform: rotate(0deg);
+  transition: all 0.2s ease-in-out;
+}
+figure.is-style-relyo-hover-color-primary:hover img {
+  filter: invert(0) sepia(1) saturate(5000%) hue-rotate(165deg) brightness(0.75);
+  transform: rotate(45deg);
+  transition: all 0.2s ease-in-out;
+}
+figure.is-style-relyo-hover-color-secondary img {
+  transform: rotate(0deg);
+  transition: all 0.2s ease-in-out;
+}
+figure.is-style-relyo-hover-color-secondary:hover img {
+  filter: invert(0) sepia(1) saturate(4200%) hue-rotate(165deg) brightness(1.05);
+  transform: rotate(45deg);
+  transition: all 0.2s ease-in-out;
+}
+figure.is-style-relyo-hover-color:hover img {
+  filter: grayscale(0%);
+  transition: all 0.2s ease-in-out;
+}
+/* ****** GROUP / COLUMN ****** */
+.is-style-relyo-boxshadow {
+  box-shadow: 0 4px 20px 0 rgb(26, 25, 29, 5%);
+}
+.is-style-relyo-boxshadow-hover:hover {
+  box-shadow: 0 4px 20px 0 rgb(26, 25, 29, 5%);
+  transition: all 0.2s ease-in-out;
+}
+.is-style-relyo-boxshadow-hover {
+  box-shadow: 0 4px 20px 0 rgb(26, 25, 29, 0%);
+  transition: all 0.2s ease-in-out;
+}
+.is-style-relyo-overflow-hidden {
+  overflow: hidden;
+}
+/* HOVER */
+.relyo-hover-primary:hover {
+  background-color: var(--wp--preset--color--primary) !important;
+  transition: all 0.2s ease-in-out;
+  & .relyo-text-light-color {
+    color: var(--wp--preset--color--light-color) !important;
+    transition: all 0.2s ease-in-out;
+    & a {
+      color: var(--wp--preset--color--light-color) !important;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+}
+/* ******* SOCIAL ICONS ******* */
+.is-style-relyo-no-radius .wp-social-link {
+  border-radius: 0;
+}
+/* ***** PAGINATION ***** */
+/* Primary */
+.is-style-relyo-pagination-primary.wp-block-query-pagination .page-numbers {
+  border: 1px solid var(--wp--preset--color--border-color);
+  padding: 8px 16px;
+  line-height: 1;
+}
+.is-style-relyo-pagination-primary.wp-block-query-pagination
+  .page-numbers.current {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--black-color);
+  border-color: var(--wp--preset--color--primary);
+}
+.is-style-relyo-pagination-primary.wp-block-query-pagination
+  .page-numbers:hover,
+.is-style-relyo-pagination-primary .wp-block-query-pagination-previous:hover,
+.is-style-relyo-pagination-primary .wp-block-query-pagination-next:hover {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--black-color);
+  border-color: var(--wp--preset--color--primary);
+}
+.is-style-relyo-pagination-primary .wp-block-query-pagination-previous,
+.is-style-relyo-pagination-primary .wp-block-query-pagination-next {
+  padding: 8px 16px;
+  border: 1px solid var(--wp--preset--color--border-color);
+}
+/* Secondary */
+.is-style-relyo-pagination-secondary.wp-block-query-pagination .page-numbers {
+  border: 1px solid var(--wp--preset--color--border-color);
+  padding: 8px 16px;
+  line-height: 1;
+}
+.is-style-relyo-pagination-secondary.wp-block-query-pagination
+  .page-numbers.current {
+  background-color: var(--wp--preset--color--secondary);
+  color: var(--wp--preset--color--light-color);
+  border-color: var(--wp--preset--color--secondary);
+}
+.is-style-relyo-pagination-secondary.wp-block-query-pagination
+  .page-numbers:hover,
+.is-style-relyo-pagination-secondary .wp-block-query-pagination-previous:hover,
+.is-style-relyo-pagination-secondary .wp-block-query-pagination-next:hover {
+  background-color: var(--wp--preset--color--secondary);
+  color: var(--wp--preset--color--light-color);
+  border-color: var(--wp--preset--color--secondary);
+}
+.is-style-relyo-pagination-secondary .wp-block-query-pagination-previous,
+.is-style-relyo-pagination-secondary .wp-block-query-pagination-next {
+  padding: 8px 16px;
+  border: 1px solid var(--wp--preset--color--border-color);
+}
+/* ***** CATEGORIES ***** */
+.is-style-relyo-categories-no-list li.cat-item {
+  list-style: none;
+}
+
+.is-style-relyo-category-primary {
+  & a {
+    background-color: var(--wp--preset--color--primary);
+    padding: 4px 8px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  & a:hover{
+    transform: translateY(-2px);
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+
+.is-style-relyo-category-secondary {
+  & a {
+    display: inline-block;
+    background-color: var(--wp--preset--color--secondary);
+    padding: 4px 8px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  & a:hover{
+    transform: translateY(-2px);
+    transition: all 0.2s ease-in-out;
+  }
+}

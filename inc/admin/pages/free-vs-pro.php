@@ -1,0 +1,350 @@
+<?php
+$relyo_features = array(
+	array(
+		'label' => 'Pre-built Starter sites',
+		'free'  => '1',
+		'pro'   => '50+ (Including free demos)',
+	),
+	array(
+		'label' => 'Pre-built Sections',
+		'free'  => '15+',
+		'pro'   => '500+ (Including free)',
+	),
+	array(
+		'label' => 'Global Styles',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Fully Customizable Header',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Pre-built Header Layout',
+		'free'  => '1',
+		'pro'   => '50+ (Including free)',
+	),
+	array(
+		'label' => 'Fully Customizable Footer',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Pre-built Footer Layout',
+		'free'  => '1',
+		'pro'   => '40+ (Including free)',
+	),
+	array(
+		'label' => 'Advanced Color Options',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Responsive Layout',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Advanced Typography',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Pre-built Inner Pages',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Advanced blocks',
+		'free'  => '20+',
+		'pro'   => '50+',
+	),
+	array(
+		'label' => 'Slider',
+		'free'  => 'Basic',
+		'pro'   => 'Advanced',
+	),
+	array(
+		'label' => 'Team',
+		'free'  => 'Basic',
+		'pro'   => 'Advanced',
+	),
+	array(
+		'label' => 'Testimonial',
+		'free'  => 'Basic',
+		'pro'   => 'Advanced',
+	),
+	array(
+		'label' => 'Photo Gallery',
+		'free'  => 'Basic',
+		'pro'   => 'Advanced',
+	),
+	array(
+		'label' => 'Popup Builder',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Mega Menu',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Sidebar Panel',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Portfolio Builder',
+		'free'  => 'Basic',
+		'pro'   => 'Advanced',
+	),
+	array(
+		'label' => 'WooCommerce Blocks',
+		'free'  => 	false,
+		'pro'   => 	true,
+	),
+	array(
+		'label' => 'Product Slider',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Featured Product Tabs',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Product Quick View',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Product Categories',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'All Product Reviews',
+		'free'  => 'Basic',
+		'pro'   => 'Advanced',
+	),
+	array(
+		'label' => 'Advanced Sales Option',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Post Magazine Blocks',
+		'free'  => '1',
+		'pro'   => '15 (Including free)',
+	),
+	array(
+		'label' => 'Magazine Grid',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Magazine List',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Categorised Post Tabs',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Featured Post Tabs',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Advanced Categories',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Post Slider',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Related Post',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Trending Post',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Advertisement Block',
+		'free'  => 'Basic',
+		'pro'   => 'Advanced',
+	),
+	array(
+		'label' => 'Pricing Table',
+		'free'  => 'Basic',
+		'pro'   => 'Advanced',
+	),
+	array(
+		'label' => 'Toggle Switcher',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Contact Form 7 Styler',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Before/After Image',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Countdown Timer',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'World Class Support',
+		'free'  => true,
+		'pro'   => true,
+	),
+);
+
+/**
+ * Outputs an icon or status message based on the given feature status.
+ *
+ * This function checks if the provided status is a boolean value. If it is, it displays
+ * a check mark icon for a true value and a cross icon for a false value. If the status is
+ * not a boolean, it outputs the status as a text string.
+ *
+ * The allowed tags and attributes are sanitized using `wp_kses()` to prevent unsafe content.
+ *
+ * @param mixed $status The status of the feature. It can be a boolean (true/false) or a string.
+ *                      - If true, it shows a check mark icon.
+ *                      - If false, it shows a cross icon.
+ *                      - If a string, it displays the string as the status.
+ *
+ * @return void Echoes the HTML for the corresponding status icon or status text.
+ *
+ * @example
+ * relyo_get_feature_status_icon( true );  // Outputs a check mark icon.
+ * relyo_get_feature_status_icon( false ); // Outputs a cross icon.
+ * relyo_get_feature_status_icon( 'Coming Soon' ); // Outputs "Coming Soon" as a text status.
+ */
+function relyo_get_feature_status_icon( $status ) {
+	$allowed_tags = array(
+		'div'  => array(
+			'class' => true,
+		),
+		'svg'  => array(
+			'class'   => true,
+			'width'   => true,
+			'height'  => true,
+			'viewBox' => true,
+			'fill'    => true,
+			'xmlns'   => true,
+		),
+		'path' => array(
+			'd'    => true,
+			'fill' => true,
+		),
+	);
+
+	if ( is_bool( $status ) ) {
+		if ( filter_var( $status, FILTER_VALIDATE_BOOLEAN ) ) {
+			$svg = '<div class="comparison-icon__wrapper tick-icon__wrapper"><svg class="tick-icon" width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.66668 7.11333L10.7947 0.986L11.7373 1.92867L4.66668 8.99933L0.424011 4.75667L1.36668 3.814L4.66668 7.11333Z" />
+            </svg></div>';
+
+			echo wp_kses( $svg, $allowed_tags );
+		} else {
+			$svg = '<div class="comparison-icon__wrapper cross-icon__wrapper"><svg class="cross-icon" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.99999 4.058L8.29999 0.758003L9.24266 1.70067L5.94266 5.00067L9.24266 8.30067L8.29932 9.24334L4.99932 5.94334L1.69999 9.24334L0.757324 8.3L4.05732 5L0.757324 1.7L1.69999 0.75867L4.99999 4.058Z" />
+            </svg></div>';
+
+			echo wp_kses( $svg, $allowed_tags );
+		}
+	} else {
+		printf(
+			/* translators: %s: Status string */
+			esc_html__( '%s', 'relyo' ),
+			esc_html( $status )
+		);
+	}
+}
+?>
+
+<div class="relyo-page__free-pro">
+	<h3><?php esc_html_e( 'Relyo Free vs. Pro', 'relyo' ); ?></h3>
+
+	<div class="checkout-button-container top">
+		<a href="<?php echo esc_url( 'https://cozythemes.com/pricing-and-plans/' ); ?>" class="checkout-button"><?php esc_html_e( 'Already enjoying our product?', 'relyo' ); ?></a>
+	</div>
+
+	<table>
+		<tr>
+			<th><?php esc_html_e( 'Feature', 'relyo' ); ?></th>
+			<th><?php esc_html_e( 'Free', 'relyo' ); ?></th>
+			<th><?php esc_html_e( 'Pro', 'relyo' ); ?></th>
+		</tr>
+
+		<?php
+		if ( isset( $relyo_features ) && ! empty( $relyo_features ) ) :
+			foreach ( $relyo_features as $feature ) {
+				?>
+				<tr>
+					<td>
+						<?php
+						printf(
+							/* translators: %s: Feature label */
+							esc_html__( '%s', 'relyo' ),
+							esc_html( $feature['label'] )
+						)
+						?>
+					</td>
+
+					<td>
+						<?php relyo_get_feature_status_icon( $feature['free'] ); ?>
+					</td>
+
+					<td>
+						<?php relyo_get_feature_status_icon( $feature['pro'] ); ?>
+					</td>
+				</tr>
+				<?php
+			}
+		endif;
+		?>
+	</table>
+	<br />
+	<em><?php esc_html_e( 'Note: To use the Pro features download the ', 'relyo' ); ?><strong class="relyo-setup-link"><?php esc_html_e( 'Recommended Plugin', 'relyo' ); ?></strong></em>
+	<p><?php esc_html_e( 'Explore More features and details comparison on ', 'relyo' ); ?>
+		<a href="<?php echo esc_url( 'https://cozythemes.com/relyo/' ); ?>" target="_blank"><?php esc_html_e( 'Here', 'relyo' ); ?></a>
+	</p>
+
+
+	<!-- Refund Policy Section -->
+	<div class="refund-policy">
+		<figure class="policy-image">
+			<img src="<?php echo esc_url( 'https://cozythemes.com/wp-content/uploads/2024/09/guarantee-2.png' ); ?>" loading="lazy" />
+		</figure>
+
+		<div class="policy">
+			<h3><?php esc_html_e( 'No Risk, 100% Money Back Guarantee!', 'relyo' ); ?></h3>
+			<p><?php esc_html_e( 'Our Refund Policy secures customer satisfaction and protection. If you find our purchased products unusable, despite our team’s support, you can claim a full refund within 30 days.', 'relyo' ); ?></p>
+		</div>
+	</div>
+
+	<!-- Checkout Button Section -->
+	<div class="checkout-button-container bottom">
+		<?php esc_html_e( 'Ready to take the next step? Let’s get you to', 'relyo' ); ?> <a href="<?php echo esc_url( 'https://cozythemes.com/pricing-and-plans/' ); ?>" class="checkout-button"><?php esc_html_e( 'Checkout!', 'relyo' ); ?></a> <?php esc_html_e( '🚀', 'relyo' ); ?>
+	</div>
+</div>
+<?php
