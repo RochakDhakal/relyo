@@ -169,7 +169,7 @@
 <div role="region" class="wp-block-accordion-panel" style="padding-right:24px;padding-bottom:18px;padding-left:24px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}}} -->
 <p style="font-size:16px">
 <?php
-	esc_html_e( 'Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.', 'xperio' );
+	esc_html_e( 'Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.', 'relyo' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>
