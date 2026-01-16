@@ -72,14 +72,37 @@ p a {
         font-size: inherit;
       }
       & .wpcf7-form-control.wpcf7-submit {
+        margin-top: 24px;
         background-color: var(--wp--preset--color--primary);
         color: currentColor;
-        border: none;
         text-transform: uppercase;
         cursor: pointer;
-        transition: background-color 0.3s ease-in-out;
+        transition: background-color 0.2s ease-in-out;
         &:hover {
           background-color: var(--wp--preset--color--secondary);
+        }
+      }
+    }
+  }
+}
+/* ***** Variant: Form 2 ***** */
+.wp-block-contact-form-7-contact-form-selector.relyo-contact-form-2 {
+  & form.wpcf7-form {
+    & p {
+      & .wpcf7-form-control {
+        border-radius: 8px;
+        padding: 12px 0px;
+        font-size: inherit;
+      }
+      & .wpcf7-form-control.wpcf7-submit {
+        margin-top: 24px;
+        background-color: var(--wp--preset--color--secondary);
+        color: currentColor;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        &:hover {
+          background-color: var(--wp--preset--color--primary);
         }
       }
     }
