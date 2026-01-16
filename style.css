@@ -91,7 +91,7 @@ p a {
     & p {
       & .wpcf7-form-control {
         border-radius: 8px;
-        padding: 12px 0px;
+        padding: 18px 28px;
         font-size: inherit;
       }
       & .wpcf7-form-control.wpcf7-submit {
