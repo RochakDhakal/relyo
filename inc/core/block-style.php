@@ -40,6 +40,27 @@ if ( function_exists( 'register_block_style' ) ) {
 			)
 		);
 		register_block_style(
+			'core/cover',
+			array(
+				'name'  => 'relyo-hover-zoom-in',
+				'label' => __( 'Hover: Zoom In', 'relyo' ),
+			)
+		);
+		register_block_style(
+			'core/cover',
+			array(
+				'name'  => 'relyo-hover-zoom-out',
+				'label' => __( 'Hover: Zoom Out', 'relyo' ),
+			)
+		);
+		register_block_style(
+			'core/cover',
+			array(
+				'name'  => 'relyo-hover-overlay',
+				'label' => __( 'Hover: Overlay', 'relyo' ),
+			)
+		);
+		register_block_style(
 			'core/image',
 			array(
 				'name'  => 'relyo-hover-zoom-in',
