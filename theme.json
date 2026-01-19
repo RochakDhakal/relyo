@@ -300,9 +300,6 @@
         "color": {
           "text": "var(--wp--preset--color--foreground)"
         },
-        "typography": {
-          "textDecoration": "none"
-        },
         ":hover": {
           "color": {
             "text": "var(--wp--preset--color--primary)"

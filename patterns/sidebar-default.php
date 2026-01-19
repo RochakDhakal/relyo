@@ -11,8 +11,10 @@
 	);
 	?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"bottom":"0"},"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}},"border":{"width":"1px","color":"#E0E0E0","radius":{"topLeft":"12px","topRight":"12px","bottomLeft":"12px","bottomRight":"12px"}}},"backgroundColor":"background-alt","layout":{"type":"constrained","contentSize":""}} -->
-<div class="wp-block-group has-border-color has-background-alt-background-color has-background" style="border-color:#E0E0E0;border-width:1px;border-top-left-radius:12px;border-top-right-radius:12px;border-bottom-left-radius:12px;border-bottom-right-radius:12px;margin-bottom:0;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:image {"id":360,"width":"70px","height":"70px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"},"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}},"border":{"width":"1px","color":"#E0E0E0","radius":{"topLeft":"12px","topRight":"12px","bottomLeft":"12px","bottomRight":"12px"}}},"backgroundColor":"background-alt","layout":{"type":"constrained","contentSize":""}} -->
+<div class="wp-block-group has-border-color has-background-alt-background-color has-background" style="border-color:#E0E0E0;border-width:1px;border-top-left-radius:12px;border-top-right-radius:12px;border-bottom-left-radius:12px;border-bottom-right-radius:12px;margin-top:0;margin-bottom:0;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px">
+<!-- wp:image {"id":360,"width":"70px","height":"70px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="
 <?php
 	echo esc_url( $relyo_img[0] );
