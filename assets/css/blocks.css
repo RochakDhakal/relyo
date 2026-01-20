@@ -113,7 +113,7 @@ figure.is-style-relyo-hover-color:hover img {
     opacity: 1;
     transition: all 0.3s ease-in-out;
   }
-  & .wp-block-cover__inner-container{
+  & .wp-block-cover__inner-container {
     opacity: 1;
     transform: translateY(0);
     transition: all 0.3s ease-in-out;
@@ -161,6 +161,19 @@ figure.is-style-relyo-hover-color:hover img {
       transition: all 0.2s ease-in-out;
     }
   }
+}
+/* ***** Previous/Next *****  */
+.is-style-relyo-post-link-primary.wp-block-post-navigation-link a {
+  padding: 16px 24px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid var(--wp--preset--color--border-color);
+}
+.is-style-relyo-post-link-primary.wp-block-post-navigation-link:hover a {
+  background-color: var(--wp--preset--color--primary);
+  padding: 16px 24px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
 }
 /* ******* SOCIAL ICONS ******* */
 .is-style-relyo-no-radius .wp-social-link {

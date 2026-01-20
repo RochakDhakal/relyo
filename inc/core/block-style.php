@@ -243,6 +243,20 @@ if ( function_exists( 'register_block_style' ) ) {
 			)
 		);
 		register_block_style(
+			'core/post-navigation-link',
+			array(
+				'name'  => 'relyo-post-link-primary',
+				'label' => __( 'Hover: Primary', 'relyo' ),
+			)
+		);
+		register_block_style(
+			'core/post-navigation-link',
+			array(
+				'name'  => 'relyo-post-link-secondary',
+				'label' => __( 'Hover: Secondary', 'relyo' ),
+			)
+		);
+		register_block_style(
 			'core/social-links',
 			array(
 				'name'  => 'relyo-no-radius',
