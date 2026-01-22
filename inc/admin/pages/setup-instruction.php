@@ -81,10 +81,10 @@
 			<li><?php esc_html_e( 'Click on', 'relyo' ); ?> <strong><?php esc_html_e( 'Design Kit Library ', 'relyo' ); ?></strong><?php esc_html_e( 'on editor navigation bar', 'relyo' ); ?>
 				<img src=<?php echo esc_url( get_template_directory_uri() . '/inc/admin/images/admin-img.png' ); ?> alt="admin-img-1">
 			</li>
-			<li><?php esc_html_e( 'On the Popup Menu, Select', 'relyo' ); ?> <strong><?php esc_html_e( 'Homepage Templates', 'relyo' ); ?></strong> <?php esc_html_e( ' on the top navigation', 'relyo' ); ?>
+			<li><?php esc_html_e( 'On the Popup Menu, Select', 'relyo' ); ?> <strong><?php esc_html_e( 'Page Templates', 'relyo' ); ?></strong> <?php esc_html_e( ' on the top navigation', 'relyo' ); ?>
 				<img src=<?php echo esc_url( get_template_directory_uri() . '/inc/admin/images/admin-img-template.png' ); ?> alt="admin-img-2">
 			</li>
-			<li><?php esc_html_e( 'Click', 'relyo' ); ?> <strong><?php esc_html_e( 'Import ', 'relyo' ); ?></strong><?php	esc_html_e( 'to import the template', 'relyo' ); ?>
+			<li><?php esc_html_e( 'Click', 'relyo' ); ?> <strong><?php esc_html_e( 'Import ', 'relyo' ); ?></strong><?php	esc_html_e( 'to import the template/pattern', 'relyo' ); ?>
 				<img src=<?php echo esc_url( get_template_directory_uri() . '/inc/admin/images/admin-img-import.png' ); ?> alt="admin-img-2">
 			</li>
 		</ol>
