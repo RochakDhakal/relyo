@@ -12,7 +12,7 @@
  */
 	$relyo_url = trailingslashit( get_template_directory_uri() );
 	$relyo_img = array(
-		$relyo_url . 'assets/images/hero.jpg',
+		$relyo_url . 'assets/images/hero.png',
 	);
 	?>
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"100%"}} -->
