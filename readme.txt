@@ -27,7 +27,7 @@ Relyo is a modern Full Site Editing (FSE) WordPress theme crafted for constructi
 
 == Changelog ==
 
-= 1.0.0 - Jan 15, 2026 =
+= 1.0.0 - Feb 03, 2026 =
 * Initial release
 
 ==Copyright==
