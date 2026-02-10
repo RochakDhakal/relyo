@@ -77,9 +77,7 @@ add_action( 'admin_enqueue_scripts', 'relyo_admin_style' );
  * Enqueue assets scripts for both backend and frontend
  */
 function relyo_block_assets() {
-	wp_enqueue_style( 'relyo-swiper-bundle-editor-style', get_template_directory_uri() . '/assets/css/swiper-bundle.css', array(), RELYO_VERSION );
 	wp_enqueue_style( 'relyo-blocks-style', get_template_directory_uri() . '/assets/css/blocks.css', array(), RELYO_VERSION );
-	wp_enqueue_script( 'relyo-swiper-bundle-editor-scripts', get_template_directory_uri() . '/assets/js/swiper-bundle.js', array(), RELYO_VERSION, true );
 }
 add_action( 'enqueue_block_assets', 'relyo_block_assets' );
 
